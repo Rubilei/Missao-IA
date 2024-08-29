@@ -36,7 +36,7 @@ const perguntas = [
         alternativas: [
             {
             texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            afirmação:"afirmação"
+            afirmacao:"afirmação"
             }
             {
             texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores."
@@ -52,7 +52,7 @@ const perguntas = [
             afirmacao: "afirmação"
             }
             texto: "Criar uma imagem utilizando um gerador de imagem de IA."
-            afirmação: "afirmação"
+            afirmacao: "afirmação"
             }
         ]
     },
@@ -83,11 +83,10 @@ function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
       botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", function(){
+      botaoAlternativas.addEventListener("click", function(){
             atual++;
             mostraPergunta();
         })
-
       caixaAlternativas.appendChild(botaoAlternativas);
     }
   }
