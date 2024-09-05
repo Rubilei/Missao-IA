@@ -69,7 +69,7 @@ const perguntas = [
             afirmacao:"afirmação"
             }
         ]
-    },
+    }
 ];
 
 let atual =0;
