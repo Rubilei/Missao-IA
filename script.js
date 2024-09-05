@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Isso é assustador!",
-                Afirmacao:"afirmação";
+                Afirmacao:"afirmação"
             },
             {
                 texto:"Isso é maravilhoso!",
@@ -69,7 +69,7 @@ const perguntas = [
             afirmacao:"afirmação"
             }
         ]
-    }
+    },
 ];
 
 let atual =0;
