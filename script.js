@@ -73,7 +73,7 @@ const perguntas = [
 ];
 
 let atual =0;
-let perguntaAtual;//cria uma let para história final
+let perguntaAtual;
 
 let historiaFinal = "";
 
@@ -95,7 +95,7 @@ function mostraAlternativas() {
       caixaAlternativas.appendChild(botaoAlternativas);
     }
   }
-    function respostaSelecionada(opcaoSelecionada){]
+    function respostaSelecionada(opcaoSelecionada){
         const afirmacoes = opcaoSelecionada.afirmacao;
         historiaFinal += afirmacoes + " ";
         atual++;
